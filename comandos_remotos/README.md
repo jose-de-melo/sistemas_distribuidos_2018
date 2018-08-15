@@ -11,6 +11,3 @@ Funciona da seguinte forma:
   * O cliente exibe a saída recebida do servidor
   * Se o comando fornecido for ``exit``, fecha a conexão com o servidor e finaliza a execução do programa. Se não for, o programa
   continua sua execução solicitando um novo comando a ser executado.
-
-.. image:: https://vignette.wikia.nocookie.net/lpunb/images/b/b1/Logo_Python.png/revision/latest?cb=20130301171443
-   :width: 40pt
