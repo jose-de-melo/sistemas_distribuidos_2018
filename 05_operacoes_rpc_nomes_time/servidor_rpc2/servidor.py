@@ -58,6 +58,9 @@ def main():
         daemon=True
     ).start()
 
+    thr.Thread(target=atualizaTempo, args=(), daemon=True).start()
+
+
     try: servidor_RCP()
     except KeyboardInterrupt: pass
 

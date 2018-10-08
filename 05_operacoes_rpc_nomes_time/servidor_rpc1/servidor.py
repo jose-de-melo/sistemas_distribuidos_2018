@@ -19,6 +19,8 @@ def servidor_RCP():
         data = json.loads(data.decode('utf-8'))
         gravar_log(addr, data)
 
+        print('Operação: {}, Cliente: {}'.format(data, addr))
+
         resposta = None
         try:
             if 'op' not in data or data['op'] not in operacoes:
